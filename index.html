@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Condiciones</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#challenge_1">Ejercicio 1</a>
+        <a href="#challenge_2">Ejercicio 2</a>
+        <a href="#challenge_3">Ejercicio 3</a>
+    </nav>
+<section id="challenge_1">
+    <h3>Activa el borde -- Has click en la imagen</h3>
+    <img id="challenge_1_img" src="./assets/img/gorra1.jpg" alt="Picture" onclick="OneClick()">
+</section>
+<section id="challenge_2">
+    <div class="challenge_2_card1">
+        <img src="./assets/img/img1.jpeg" alt="Gorra1" id="challenge_2_card1_img">
+        <input type="number" min="0" placeholder="Cantidad" id="challenge_2_card1_input">
+        <span id="alerta"></span>
+    </div>
+    <div class="challenge_2_card2">
+        <img src="./assets/img/img2.jpeg" alt="Gorra1" id="challenge_2_card2_img">
+        <input type="number" min="0" placeholder="Cantidad" id="challenge_2_card2_input">
+        <span id="alerta2"></span>
+    </div>     
+    <div class="challenge_2_card3">
+        <img src="./assets/img/img3.jpeg" alt="Gorra1" id="challenge_2_card3_img">
+        <input type="number" min="0" placeholder="Cantidad" id="challenge_2_card3_input">
+        <span id="alerta3"></span>
+    </div> 
+    <div class="challenge_2_total" >
+        <p>Llevas <span id="challenge_2_total_Ctotal">0</span> stickers</p>
+        <button class="bttonCal" onclick="CalTotal()">Agregar al Carrito</button>
+    </div>   
+</section>
+<section id="challenge_3">
+    <div class="callenge_3_pasw">
+        <h3>Ingrese el pasword</h3>
+        <div>
+            <select id="select1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select id="select2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select id="select3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+        <button id="BttonIn" onclick="Validpasw()">Ingresar</button>
+        <p id="callenge_3_pasw_result"></p>
+    </div>
+</section>
+   <script src="./assets/js/main.js"></script>
+</body>
+</html>
