@@ -42,7 +42,7 @@ function CalTotal(){
     }
     else{
         if(total > 10){
-            challenge_2_total_Ctotal.innerHTML = " Llevas demasiados stickers";
+            challenge_2_total_Ctotal.innerHTML = "demasiadosgit";
         }
         else{
             challenge_2_total_Ctotal.innerHTML = total;
